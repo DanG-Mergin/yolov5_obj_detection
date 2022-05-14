@@ -1,0 +1,43 @@
+{
+    "os": "Windows-10-10.0.17134-SP0",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-05-14T09:12:50.209140",
+    "startedAt": "2022-05-14T09:12:47.044650",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 960M",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--img",
+        "10",
+        "--cfg",
+        "yolov5s.yaml",
+        "--hyp",
+        "hyp.scratch-low.yaml",
+        "--batch",
+        "5",
+        "--epochs",
+        "5",
+        "--data",
+        "data_set.yaml",
+        "--weights",
+        "yolov5s.pt",
+        "--workers",
+        "24",
+        "--name",
+        "yolo_boats_dg2_960M_cuda"
+    ],
+    "state": "running",
+    "program": "yolov5/train.py",
+    "codePath": "yolov5\\train.py",
+    "git": {
+        "remote": "git@github.com:DanG-Mergin/yolov5_obj_detection.git",
+        "commit": "ba14ab5052244e719c74e2fdf565e9ba3e7fb419"
+    },
+    "email": "dan.goldberg321@gmail.com",
+    "root": "C:/Users/dango/Documents/workspace/computer_vision/final_project/yolov5_obj_detection",
+    "host": "LAPTOP-QTIHTDFU",
+    "username": "dango",
+    "executable": "c:\\Users\\dango\\anaconda3\\envs\\yolo\\python.exe"
+}
