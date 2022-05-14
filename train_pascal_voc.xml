@@ -1,0 +1,26 @@
+<annotation>
+    <folder>train_v2</folder>
+    <filename>fffdd2377.jpg</filename>
+    <path>c:\Users\Dgolberg\workspace\2022-courses\Computer_Vision\final_project\airbus-ship-detection\train_v2\fffdd2377.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>768</width>
+        <height>768</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>boat</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin> 434</xmin>
+            <ymin>271</ymin>
+            <xmax> 607</xmax>
+            <ymax> 312</ymax>
+        </bndbox>
+    </object>
+</annotation>
