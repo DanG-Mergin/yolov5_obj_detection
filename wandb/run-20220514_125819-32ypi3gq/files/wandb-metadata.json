@@ -1,0 +1,43 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-05-14T16:58:22.299031",
+    "startedAt": "2022-05-14T16:58:19.181238",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--freeze",
+        "24",
+        "--img",
+        "384",
+        "--cfg",
+        "yolov5s.yaml",
+        "--hyp",
+        "hyp.scratch-low.yaml",
+        "--batch",
+        "16",
+        "--epochs",
+        "5",
+        "--data",
+        "data_set.yaml",
+        "--weights",
+        "yolov5s.pt",
+        "--workers",
+        "6",
+        "--name",
+        "yolo_boats_dg"
+    ],
+    "state": "running",
+    "program": "yolov5/train.py",
+    "codePath": "yolov5\\train.py",
+    "git": {
+        "remote": "git@github.com:DanG-Mergin/yolov5_obj_detection.git",
+        "commit": "ed4e3f329a0ff9634a25d97113af9d48b704e226"
+    },
+    "email": "dan.goldberg@ngam.natixis.com",
+    "root": "C:/Users/Dgolberg/workspace/2022-courses/Computer_Vision/final_project",
+    "host": "Yep",
+    "username": "Dgolberg",
+    "executable": "c:\\Users\\Dgolberg\\anaconda3\\envs\\yolo\\python.exe"
+}
