@@ -164,5 +164,6 @@ data/*
 images/*
 labels/*
 yolov5/*
-
+imagesv1/*
+labelsv1/*
 *.zip
